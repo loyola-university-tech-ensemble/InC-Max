@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 0.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Laptop Keyboard Control"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.670588, 0.74902, 0.807843, 1.0 ],
 					"bgoncolor" : [ 0.836576, 0.903148, 0.643029, 0.88 ],
 					"blinktime" : 250,
