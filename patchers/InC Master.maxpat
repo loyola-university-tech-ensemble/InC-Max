@@ -1448,7 +1448,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 603.0, 681.5, 80.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.833344, 668.625, 159.0, 13.0 ],
+					"presentation_rect" : [ 312.833344, 668.625, 159.0, 23.375 ],
 					"style" : ""
 				}
 
@@ -3677,7 +3677,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sco19.png",
+				"name" : "Sco18.png",
 				"bootpath" : "~/Documents/Max 7/Projects/InC_2017/media",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -3708,7 +3708,7 @@
 			}
 , 			{
 				"name" : "Vibes.E3.aiff",
-				"bootpath" : "/Volumes/DB Wetzel/Users/davidwetzel/Documents/MaxMSP/MSP Runtime/msp examples/sounds",
+				"bootpath" : "~/Documents/Max 7/Projects/InC_2017/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
