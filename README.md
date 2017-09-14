@@ -10,11 +10,11 @@ It comes with everything a performer will need, including a changeable ostinato 
 
 Current releases can be found [here][4], with direct links found below.
 
-### Version 1.0.2
+### Version 1.0.3
 
-* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v1.0.2/InCApp_macOS.dmg)
-* Windows x64 Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v1.0.2/InC_Winx64.zip)
-* Max patch: [Download](https://github.com/loyola-university-tech-ensemble/InC/archive/v1.0.2.zip)
+* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v1.0.3/In.C.for.Mac.1.0.4.dmg)
+* Windows x64 Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v1.0.3/InC_App_Winx64.zip)
+* Max patch: [Download](https://github.com/loyola-university-tech-ensemble/InC/archive/v1.0.3.zip)
 
 [1]: https://en.wikipedia.org/wiki/In_C
 [2]: https://cycling74.com/products/max
