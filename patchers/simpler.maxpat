@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -39,12 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-53",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 127.0, 40.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "works but timing doesn't seem accurate"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.0, 103.0, 60.0, 22.0 ],
+					"patching_rect" : [ 43.0, 90.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "match 60"
 				}
@@ -57,21 +70,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 144.0, 72.0, 57.0, 22.0 ],
+					"patching_rect" : [ 43.0, 62.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "stripnote"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 148.0, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "print"
 				}
 
 			}
@@ -96,32 +97,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.0, 335.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 127"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 43.0, 66.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 96.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "60"
+					"text" : "loadmess 120"
 				}
 
 			}
@@ -134,7 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 10.0, 30.0, 30.0 ],
+					"patching_rect" : [ 43.0, 25.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -162,7 +138,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 43.0, 175.0, 81.0, 22.0 ],
 					"style" : "",
-					"text" : "/ 329.627557"
+					"text" : "/ 329.627563"
 				}
 
 			}
@@ -264,21 +240,21 @@
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"slurtime" : [ 0.0 ],
-									"originallengthms" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"play" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 0.793701 ],
-									"formantcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
 									"followglobaltempo" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"mode" : [ "basic" ],
+									"slurtime" : [ 0.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"speed" : [ 0.793701 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ]
 								}
 
 							}
@@ -311,15 +287,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -359,15 +326,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -451,17 +409,6 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-51", 0 ]
 				}
 
