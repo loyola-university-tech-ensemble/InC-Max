@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 82.0, 79.0, 1072.0, 777.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
 		"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 753.266602, 316.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "pvar play"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"linecount" : 2,
@@ -1710,7 +1723,8 @@
 					"patching_rect" : [ 9.49998, 304.0, 57.5, 57.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.5, 203.0, 57.5, 57.5 ],
-					"style" : ""
+					"style" : "",
+					"varname" : "play"
 				}
 
 			}
@@ -1723,7 +1737,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.499981, 624.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "64 0"
+					"text" : "76 0"
 				}
 
 			}
@@ -3030,6 +3044,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-140", 0 ],
 					"source" : [ "obj-139", 0 ]
 				}
@@ -3054,7 +3075,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"midpoints" : [ 532.0, 339.0, 745.599976, 339.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3063,7 +3084,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"midpoints" : [ 532.0, 338.5, 762.766602, 338.5 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3072,7 +3093,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"midpoints" : [ 532.0, 332.0, 482.099976, 332.0, 482.099976, 287.0, 498.599976, 287.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -3316,6 +3337,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -3473,9 +3495,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sco2.png",
-				"bootpath" : "~/Documents/Max 7/Projects/InC Project/media",
-				"patcherrelativepath" : "../../InC Project/media",
+				"name" : "Sco43.png",
+				"bootpath" : "~/Documents/Max 7/Projects/InC_2017/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
@@ -3513,6 +3535,166 @@
 				"patcherrelativepath" : "../media",
 				"type" : "AIFF",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "metro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "makenote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "delay.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "led.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "midiflush.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "incdec.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cycle~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gain~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "times~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mtof.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "scale.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "minus~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sig~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "abs~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "plus~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "adsr~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "dac~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ezdac~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "udpsend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "dial.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pv.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "midiinfo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gate~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "playlist.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "match.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "radiogroup.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
