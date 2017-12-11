@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 974.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 982.0, 783.0 ],
 		"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -1520,6 +1520,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "X, Y for volume/tone",
 					"id" : "obj-125",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
@@ -2069,6 +2070,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "Choose a sound for the synthesizer",
 					"id" : "obj-31",
 					"items" : [ "plucked", "string", ",", "clarinet", ",", "organ", ",", "oboe" ],
 					"maxclass" : "umenu",
@@ -2450,6 +2452,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "Choose a sound from the General MIDI (GM) list",
 					"id" : "obj-92",
 					"items" : [ "Acoustic", "Grand", "Piano", ",", "Bright", "Acoustic", "Piano", ",", "Electric", "Grand", "Piano", ",", "Honky-tonk", "Piano", ",", "Electric", "Piano", 1, ",", "Electric", "Piano", 2, ",", "Harpsichord", ",", "Clavinet", ",", "Celesta", ",", "Glockenspiel", ",", "Music", "Box", ",", "Vibraphone", ",", "Marimba", ",", "Xylophone", ",", "Tubular", "Bells", ",", "Dulcimer", ",", "Drawbar", "Organ", ",", "Percussive", "Organ", ",", "Rock", "Organ", ",", "Church", "Organ", ",", "Reed", "Organ", ",", "Accordion", ",", "Harmonica", ",", "Tango", "Accordion", ",", "Acoustic", "Guitar", "(nylon)", ",", "Acoustic", "Guitar", "(steel)", ",", "Electric", "Guitar", "(jazz)", ",", "Electric", "Guitar", "(clean)", ",", "Electric", "Guitar", "(muted)", ",", "Overdriven", "Guitar", ",", "Distortion", "Guitar", ",", "Guitar", "harmonics", ",", "Acoustic", "Bass", ",", "Electric", "Bass", "(finger)", ",", "Electric", "Bass", "(pick)", ",", "Fretless", "Bass", ",", "Slap", "Bass", 1, ",", "Slap", "Bass", 2, ",", "Synth", "Bass", 1, ",", "Synth", "Bass", 2, ",", "Violin", ",", "Viola", ",", "Cello", ",", "Contrabass", ",", "Tremolo", "Strings", ",", "Pizzicato", "Strings", ",", "Orchestral", "Harp", ",", "Timpani", ",", "String", "Ensemble", 1, ",", "String", "Ensemble", 2, ",", "Synth", "Strings", 1, ",", "Synth", "Strings", 2, ",", "Choir", "Aahs", ",", "Voice", "Oohs", ",", "Synth", "Voice", ",", "Orchestra", "Hit", ",", "Trumpet", ",", "Trombone", ",", "Tuba", ",", "Muted", "Trumpet", ",", "French", "Horn", ",", "Brass", "Section", ",", "Synth", "Brass", 1, ",", "Synth", "Brass", 2, ",", "Soprano", "Sax", ",", "Alto", "Sax", ",", "Tenor", "Sax", ",", "Baritone", "Sax", ",", "Oboe", ",", "English", "Horn", ",", "Bassoon", ",", "Clarinet", ",", "Piccolo", ",", "Flute", ",", "Recorder", ",", "Pan", "Flute", ",", "Blown", "Bottle", ",", "Shakuhachi", ",", "Whistle", ",", "Ocarina", ",", "Lead", 1, "(square)", ",", "Lead", 2, "(sawtooth)", ",", "Lead", 3, "(calliope)", ",", "Lead", 4, "(chiff)", ",", "Lead", 5, "(charang)", ",", "Lead", 6, "(voice)", ",", "Lead", 7, "(fifths)", ",", "Lead", 8, "(bass", "+", "lead)", ",", "Pad", 1, "(new", "age)", ",", "Pad", 2, "(warm)", ",", "Pad", 3, "(polysynth)", ",", "Pad", 4, "(choir)", ",", "Pad", 5, "(bowed)", ",", "Pad", 6, "(metallic)", ",", "Pad", 7, "(halo)", ",", "Pad", 8, "(sweep)", ",", "FX", 1, "(rain)", ",", "FX", 2, "(soundtrack)", ",", "FX", 3, "(crystal)", ",", "FX", 4, "(atmosphere)", ",", "FX", 5, "(brightness)", ",", "FX", 6, "(goblins)", ",", "FX", 7, "(echoes)", ",", "FX", 8, "(sci-fi)", ",", "Sitar", ",", "Banjo", ",", "Shamisen", ",", "Koto", ",", "Kalimba", ",", "Bag", "pipe", ",", "Fiddle", ",", "Shanai", ",", "Tinkle", "Bell", ",", "Agogo", ",", "Steel", "Drums", ",", "Woodblock", ",", "Taiko", "Drum", ",", "Melodic", "Tom", ",", "Synth", "Drum", ",", "Reverse", "Cymbal", ",", "Guitar", "Fret", "Noise", ",", "Breath", "Noise", ",", "Seashore", ",", "Bird", "Tweet", ",", "Telephone", "Ring", ",", "Helicopter", ",", "Applause", ",", "Gunshot" ],
 					"maxclass" : "umenu",
@@ -2627,7 +2630,7 @@
 					"patching_rect" : [ 173.666626, 16.333336, 134.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 249.0, 12.833313, 134.0, 47.0 ],
+					"presentation_rect" : [ 250.0, 12.833313, 139.75, 47.0 ],
 					"style" : "",
 					"text" : "1. Set tempo, start, and synchronize with the master pulse"
 				}
@@ -2703,7 +2706,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 616.5, 288.0, 20.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.25, 203.0, 23.0, 26.0 ],
+					"presentation_rect" : [ 284.25, 203.0, 23.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -2725,7 +2728,7 @@
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 389.833374, 5.0, 495.433228, 247.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 465.833374, 9.0, 495.433228, 247.0 ],
+					"presentation_rect" : [ 465.833374, 14.0, 495.433228, 247.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3337,7 +3340,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 753.266602, 272.0, 35.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 319.75, 185.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 379.75, 185.0, 59.0, 20.0 ],
 					"style" : "",
 					"text" : "1/8n shift"
 				}
@@ -3345,6 +3348,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "Offset rhythmically by an eighth note",
 					"id" : "obj-62",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -3353,7 +3357,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 729.5, 290.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 337.25, 203.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 397.25, 203.0, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "8thNoteShift"
 				}
@@ -3367,7 +3371,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 640.5, 272.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.25, 185.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 310.25, 185.0, 31.0, 20.0 ],
 					"style" : "",
 					"text" : "8ve"
 				}
@@ -3441,6 +3445,7 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 16.0,
+					"hint" : "shift up or down by 3 octaves",
 					"id" : "obj-6",
 					"maxclass" : "number",
 					"maximum" : 3,
@@ -3451,7 +3456,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 640.5, 290.0, 44.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.25, 203.0, 44.0, 26.0 ],
+					"presentation_rect" : [ 310.25, 203.0, 44.0, 26.0 ],
 					"style" : "",
 					"varname" : "octave"
 				}
@@ -3467,7 +3472,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 489.099976, 290.0, 28.900024, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.099976, 203.0, 34.900024, 49.0 ],
+					"presentation_rect" : [ 103.099976, 203.0, 34.900024, 49.0 ],
 					"style" : ""
 				}
 
@@ -3480,7 +3485,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 522.5, 272.0, 88.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.5, 185.0, 88.0, 20.0 ],
+					"presentation_rect" : [ 141.5, 185.0, 88.0, 20.0 ],
 					"style" : "",
 					"text" : "Score Event #"
 				}
@@ -3499,7 +3504,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 522.5, 290.0, 105.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 126.5, 203.0, 99.0, 49.0 ],
+					"presentation_rect" : [ 141.5, 203.0, 99.0, 49.0 ],
 					"style" : "",
 					"varname" : "event"
 				}
@@ -3507,6 +3512,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "trigger the current phrase (press 'Q'))",
 					"id" : "obj-68",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -3514,7 +3520,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 9.49998, 304.0, 57.5, 57.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 203.0, 57.5, 57.5 ],
+					"presentation_rect" : [ 20.5, 203.0, 49.0, 49.0 ],
 					"style" : "",
 					"varname" : "play"
 				}
@@ -4545,7 +4551,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"bgcolor" : [ 0.439216, 0.74902, 0.254902, 0.24 ],
+					"bgcolor" : [ 0.439216, 0.74902, 0.254902, 0.58 ],
 					"id" : "obj-59",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4553,7 +4559,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.49998, 263.833313, 783.5, 102.166687 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 175.25, 375.166656, 89.083351 ],
+					"presentation_rect" : [ 9.5, 175.25, 447.25, 89.083351 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -5345,7 +5351,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sco34.png",
+				"name" : "Sco45.png",
 				"bootpath" : "~/Documents/Max 7/Projects/InC_2017/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
@@ -5388,16 +5394,9 @@
 			}
 , 			{
 				"name" : "waveguide-voice.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/In C LUTE/patchers",
-				"patcherrelativepath" : "../../In C LUTE/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/InC_2017/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moving-average.gendsp",
-				"bootpath" : "~/Documents/Max 7/Projects/In C LUTE/patchers",
-				"patcherrelativepath" : "../../In C LUTE/patchers",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],
