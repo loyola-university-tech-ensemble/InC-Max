@@ -2,7 +2,7 @@
 	"name" : "InC",
 	"version" : 1,
 	"creationdate" : -732745993,
-	"modificationdate" : -706787482,
+	"modificationdate" : -699015800,
 	"viewrect" : [ 28.0, 45.0, 418.0, 764.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -31,12 +31,12 @@
 				"toplevel" : 1
 			}
 ,
-			"addSynth2.0.maxpat" : 			{
+			"QWERTYcontrol.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"QWERTYcontrol.maxpat" : 			{
+			"addSynth2.0.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -48,12 +48,17 @@
 		}
 ,
 		"media" : 		{
+			"Sco1.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"Vibes.E3.aiff" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"Sco1.png" : 			{
+			"Sco40.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -245,11 +250,6 @@
 				"local" : 1
 			}
 ,
-			"Sco40.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"Sco41.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -321,277 +321,13 @@
 
 		}
 ,
-		"externals" : 		{
-			"btrack~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
+		"code" : 		{
 
 		}
 ,
-		"other" : 		{
-			"InC-1.MID" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-2.MID" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-3.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-4.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-5.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-6.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-7.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-8.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-9.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-10.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-11.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-12.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-13.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-14.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-15.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-16.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-17.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-18.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-19.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-20.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-21.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-22.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-23.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-24.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-25.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-26.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-27.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-28.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-29.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-30.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-31.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-32.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-33.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-34.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-35.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-36.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-37.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-38.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-39.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-40.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-41.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-42.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-43.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-44.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-45.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-46.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-47.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-48.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-49.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-50.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-51.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-52.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"InC-53.mid" : 			{
-				"kind" : "midifile",
+		"externals" : 		{
+			"btrack~.mxo" : 			{
+				"kind" : "object",
 				"local" : 1
 			}
 

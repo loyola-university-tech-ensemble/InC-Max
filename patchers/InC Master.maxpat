@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 52.0, 79.0, 961.0, 736.0 ],
+		"rect" : [ 223.0, 107.0, 961.0, 736.0 ],
 		"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -1612,7 +1612,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-36",
