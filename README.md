@@ -19,11 +19,11 @@ synthesizers or using other external controllers.
 
 Current releases can be found [here][4], with direct links found below.
 
-### Version 2.0.0
+### Version 2.1.0
 
-* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.0.0/InCApp_macOS.dmg)
-* Windows x64 Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.0.0/InC_Winx64.zip)
-* Max patch: [Download](https://github.com/loyola-university-tech-ensemble/InC/archive/v2.0.0.zip)
+* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.1.0/InC_macOS_v2.1.0.dmg)
+* Windows x64 Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.1.0/InC_Windows_v2.1.0.zip)
+* Max patch: [Download](https://github.com/loyola-university-tech-ensemble/InC/archive/v2.1.0.zip)
 
 ## Build Steps
 
