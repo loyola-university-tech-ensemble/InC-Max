@@ -21,7 +21,7 @@ Current releases can be found [here][4], with direct links found below.
 
 ### Version 2.1.0
 
-* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.1.0/InC_macOS_v2.1.0.dmg)
+* macOS Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.1.0/InC_macOS_v2.1.0.zip)
 * Windows x64 Standalone: [Download](https://github.com/loyola-university-tech-ensemble/InC/releases/download/v2.1.0/InC_Windows_v2.1.0.zip)
 * Max patch: [Download](https://github.com/loyola-university-tech-ensemble/InC/archive/v2.1.0.zip)
 
