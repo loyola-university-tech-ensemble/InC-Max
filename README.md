@@ -13,7 +13,7 @@ synthesizers or using other external controllers.
 <img
   width="512"
   alt="Screenshot of In C Performance App"
-  src="https://user-images.githubusercontent.com/7128551/43782203-53a00eda-9a4e-11e8-80af-c6fbbf285b74.png">
+  src="https://user-images.githubusercontent.com/7128551/49814079-cba3d680-fd60-11e8-86ec-e1a6ce40b3aa.png">
 
 ## Releases
 
